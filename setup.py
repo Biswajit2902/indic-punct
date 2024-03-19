@@ -16,22 +16,24 @@ setup(
     python_requires='>=3.6, <4',
     install_requires=[
         'wget',
-        'certifi==2020.12.5',
-        'inflect==5.3.0',
-        'numpy==1.20.2',
-        'pandas==1.2.4',
-        'python-dateutil==2.8.1',
-        'pytz==2021.1',
-        'six==1.15.0',
-        'tqdm==4.60.0',
+        'certifi',
+        'inflect',
+        'numpy',
+        'pandas',
+        'python-dateutil',
+        'pytz',
+        'six',
+        'tqdm',
         'torch',
-        'scipy==1.5.4',
-        'sentencepiece==0.1.94',
-        'tokenizers==0.9.4',
+        'scipy',
+        'sentencepiece',
+        'tokenizers',
         'torchvision',
         'transformers',
-        'indic-nlp-library==0.81'
+        'indic-nlp-library'
     ],
+
+    
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
@@ -55,3 +57,20 @@ setup(
     ],
     include_package_data=True,
 )
+
+# 'wget',
+# 'certifi==2020.12.5',
+# 'inflect==5.3.0',
+# 'numpy==1.20.2',
+# 'pandas==1.2.4',
+# 'python-dateutil==2.8.1',
+# 'pytz==2021.1',
+# 'six==1.15.0',
+# 'tqdm==4.60.0',
+# 'torch',
+# 'scipy==1.5.4',
+# 'sentencepiece==0.1.94',
+# 'tokenizers==0.9.4',
+# 'torchvision',
+# 'transformers',
+# 'indic-nlp-library==0.81'
