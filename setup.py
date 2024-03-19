@@ -30,7 +30,8 @@ setup(
         'tokenizers',
         'torchvision',
         'transformers',
-        'indic-nlp-library'
+        'indic-nlp-library',
+        'hydra'
     ],
 
     
