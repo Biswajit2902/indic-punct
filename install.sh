@@ -1,4 +1,6 @@
-sudo apt-get update && apt-get install -y libsndfile1 ffmpeg python3-dev
+sudo apt-get update && apt-get install -y libsndfile1 ffmpeg python3-dev libopencc-dev
+
+
 pip install Cython
 sudo apt-get install libgmp-dev build-essential
 # conda install libgcc gmp
